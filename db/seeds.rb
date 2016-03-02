@@ -8,7 +8,7 @@
 
 15.times do
   restaurant = Restaurant.new(
-    name: Faker::Company.bs,
+    name: Faker::Company.name,
     address: Faker::Address.street_address,
     phone_number: Faker::PhoneNumber.cell_phone,
     category: "chinese"
